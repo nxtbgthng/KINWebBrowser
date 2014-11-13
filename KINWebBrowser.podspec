@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.resources = "Assets/*.png"
   s.requires_arc = true
   
-  s.dependency 'TUSafariActivity', git: "git@github.com:davbeck/TUSafariActivity.git", commit: "926227e3ca39609ea5a931f026b0d787184b9d00"
+  s.dependency 'TUSafariActivity', '1.0.0.1'
   s.dependency 'ARChromeActivity', '1.0.2'
 
 end
